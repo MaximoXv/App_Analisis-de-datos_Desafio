@@ -2,7 +2,7 @@
 
 Esta es una aplicación que nos permite calcular el promedio (media), la mediana, la desviación estándar y la varianza de los valores ingresados
 
-## Técnologias
+## Tecnologías
 
 - React
 - Vite
@@ -11,27 +11,27 @@ Esta es una aplicación que nos permite calcular el promedio (media), la mediana
 
 ## Instalación
 
-Para poder usar la aplicación siga estas instrucciones:
+Para poder usar la aplicación, siga estas instrucciones:
 
-Abra una terminal en donde quiera descargar el proyecto e ingrese el siguiente comando:
+Abra una terminal en donde desee clonar el proyecto e ingrese el siguiente comando:
 
 ```
 git clone https://github.com/MaximoXv/App_Analisis-de-datos_Desafio
 ```
 
-Una vez clonado el proyecto debe ingresar con una terminal y correr el siguiente comando para instalar las dependencias del proyecto:
+Una vez clonado el proyecto, ingrese a la carpeta del mismo desde la terminal y ejecute el siguiente comando para instalar las dependencias:
 
 ```
 npm install
 ```
 
-En la misma terminal ingrese el siguiente comando para prender el proyecto:
+Luego, en la misma terminal, ingrese el siguiente comando para iniciar la aplicación:
 
 ```
 npm run dev
 ```
 
-Ahora ingrese a:
+Finalmente, abra su navegador y acceda a:
 
 ```
 http://localhost:5173/

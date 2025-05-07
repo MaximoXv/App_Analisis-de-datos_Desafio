@@ -128,7 +128,7 @@ function App() {
                 </p>
               )}
               {errors.inputRangeEmpty && (
-                <p className="text-red-500">Debe ingresar un numero</p>
+                <p className="text-red-500">Debe ingresar un número</p>
               )}
             </div>
             <div className="flex flex-col">
@@ -152,7 +152,7 @@ function App() {
                 </p>
               )}
               {errors.inputRangeEmpty && (
-                <p className="text-red-500">Debe ingresar un numero</p>
+                <p className="text-red-500">Debe ingresar un número</p>
               )}
             </div>
             <button
@@ -198,7 +198,7 @@ function App() {
                 </button>
               </div>
               {errors.inputNumberEmpty && (
-                <p className="text-red-500">Debe ingresar un numero</p>
+                <p className="text-red-500">Debe ingresar un número</p>
               )}
               <div className="flex flex-wrap w-full">
                 {numbers.map((number, i) => (
@@ -245,7 +245,7 @@ function App() {
               <p className="font-bold">{median}</p>
             </div>
             <div className="flex justify-between p-4 border-2 border-gray-200 rounded-md shadow-2xs grow">
-              <p>Desviación estandar:</p>
+              <p>Desviación estándar:</p>
               <p className="font-bold">{standardDeviation}</p>
             </div>
             <div className="flex justify-between p-4 border-2 border-gray-200 rounded-md shadow-2xs grow">
