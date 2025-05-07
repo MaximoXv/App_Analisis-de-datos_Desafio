@@ -3,14 +3,14 @@ import { describe, expect, test } from 'vitest';
 import { validateArrayAndSort } from './validate-numeric-array-and-sort';
 
 describe('validateArrayAndSort function', () => {
-  test('It returns valid numbers sorted in ascending order', () => {
+  test('returns valid numbers sorted in ascending order', () => {
     expect(validateArrayAndSort([3, 1, 2])).toEqual([1, 2, 3]);
     expect(validateArrayAndSort([3, -1, 2])).toEqual([-1, 2, 3]);
     expect(validateArrayAndSort([3, 1.5, 1.3, 2])).toEqual([1.3, 1.5, 2, 3]);
   });
 
 
-  test('It throws an error if there are non-numeric elements', () => {
+  test('throws an error if there are non-numeric elements', () => {
     expect(() => validateArrayAndSort([1, "2" as any])).toThrowError(
       "Todos los elementos deben ser números."
     );
@@ -22,7 +22,7 @@ describe('validateArrayAndSort function', () => {
     );
   });
 
-  test('It throws an error if the input is not an array', () => {
+  test('throws an error if the input is not an array', () => {
     expect(() => validateArrayAndSort("no array" as any)).toThrowError(
         "El valor debe ser un array"
     );
@@ -31,7 +31,7 @@ describe('validateArrayAndSort function', () => {
     );
   });
 
-  test('It throws an error if the array contains NaN', () => {
+  test('throws an error if the array contains NaN', () => {
     expect(() => validateArrayAndSort([1, NaN])).toThrowError(
       "Todos los elementos deben ser números."
     );
